@@ -228,6 +228,7 @@ section .title::after{
     background-color: black;
 }
 .about .title::after{
+    background: black;
     content: "who i am";
 }
 .about .about-content .left{
@@ -346,23 +347,24 @@ section .title::after{
 
 
 /* syllabus styling */
-.syllabus .syll-content .syll{
-    background: black;
-    color: white;
+.syllabus .syllabus{
+    color: black;
+    padding: 5% 0%;
 }
 
 .syll p{
     color: blue;
 }
-
+.syllabus h4{
+    background-color: red;
+    color: white;
 }
 .syllabus .title::before
 .contact .title::before{
     background: white;
 }
-.syllabus .title::after
-.contact .title::after{
-    background: black;
+.syllabus .title::after{
+    background: white;
     content: "That we cover";
 }
 
@@ -634,7 +636,14 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column,
+    .syllabus .syll-content{
+        width: 100%;
+        margin-bottom:20px;
+        flex: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
@@ -666,8 +675,7 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text{
+    .about .about-content .right .text{
         font-size: 19px;
     }
     .contact .right form .fields{
