@@ -5,10 +5,46 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Thank You</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
     <script src='main.js'></script>
+    <link rel="stylesheet" href="/thanku.css">
 </head>
 <body>
+    
+    <img src="/tick.gif" height="100px" width="100px" >
     <h1>Thank You</h1>
+    <p>I will be contant to you soon by whatsapp</p>
+
+    <audio id="tah_audio" src="/Phone pay - Payment.mp3"></audio>
+
+    <script>
+        window.onload = function(){
+            document.getElementById("tah_audio").play();
+        }
+    </script>
+
+
+
+
+    <!-- <audio autoplay>
+        <source src="/Phone pay - Payment.mp3" type="audio/mpeg">
+      </audio> -->
+
+    <!-- <audio controls autoplay hidden>  
+        <source src="/Phone pay - Payment.mp3" type="audio/mpeg"></audio> -->
+
+        <!-- <script type="text/javascript">
+            function playVideo(){
+                var video = document.getElementById('video');
+                video.play();
+                video.addEventListener('ended',function(){
+                    window.location = 'http://127.0.0.1:5500/thankyou.html';
+                });
+            }
+            </script>
+            
+            <audio controls autoplay id="video" width="770" height="882" onclick="playVideo()">
+                <source src="/Phone pay - Payment.mp3" />
+            </audio> -->
 </body>
-</html>>
+</html>
