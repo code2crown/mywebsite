@@ -271,6 +271,31 @@ section .title::after{
     background: none;
 }
 
+/* Store section  */
+
+.store .title::after
+{
+    background: white;
+    content: "Reason to Join";
+}
+
+.store .text span
+{
+    color: #ff0000;
+    font-size: x-large;
+}
+
+.store .text h3 
+{
+    display: inline;
+}
+
+.store .syllabus-cont p
+{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* courses section styling */
 
 .courses, .about{
@@ -340,13 +365,14 @@ section .title::after{
     border-radius: 2px;
     margin-top: 15px;
 }
-/* .card .box a:hover{
-    color: black;
-    background: none;
-} */
+.card .box a:hover{
+    color: white;
+    background: black;
+} 
 
 
 /* syllabus styling */
+
 .syllabus .syllabus{
     color: black;
     padding: 5% 0%;
