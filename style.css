@@ -319,6 +319,7 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
     color: white;
+    margin-bottom: 20px;
 }
 .courses .cour-content .card:hover{
     background: crimson;
@@ -347,6 +348,12 @@ section .title::after{
     width: 90px;
 
 }
+
+.card .box strong
+{
+    color: yellow;
+}
+
 .card .box a{
     position: relative;
     display: block;
