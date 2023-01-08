@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Profile Card Hover Animation | CodingNepal</title>
+      <link rel="stylesheet" href="interview.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+    <h2 class="header">
+        Best Interviewee of Interview 1
+     </h2>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="Areeba_Photo_1-removebg-preview-modified.png" alt="">
+            </a>
+            <div class="title">
+               Areeba Ansari
+            </div>
+            <div class="place">
+               BCA 1st Year Student
+            </div>
+         </div>
+         <div class="content">
+            <p>
+               Best communicater and <br>Quick Learner
+            </p>
+            <div class="stars">
+               <label for="star-1" class="star-1 fas fa-star"></label>
+               <label for="star-2" class="star-2 fas fa-star"></label>
+               <label for="star-3" class="star-3 fas fa-star"></label>
+               <label for="star-4" class="star-4 fas fa-star"></label>
+               <label for="star-5" class="star-5 fas fa-star"></label>
+             </div>
+         </div>
+        
+         <div class="icons">
+         
+            <li><a href="https://instagram.com/aleena_ansari54?igshid=YmMyMTA2M2Y=" target="_blank"><span class="fab fa-instagram"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
