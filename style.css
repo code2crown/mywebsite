@@ -177,7 +177,7 @@ section .title::after{
     background: url("Code 2 Crown.png") no-repeat center;
     width: 100%;
     height: auto;
-    height: 100vh;
+/*     height: 100vh; */
     color: #fff;
     min-height: 500px;
     background-size: cover;
