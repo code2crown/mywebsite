@@ -174,10 +174,8 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("Code 2 Crown.png") no-repeat center;
-    width: 100%;
-    height: auto;
-/*     height: 100vh; */
+    background: url("Code 2 Crown.png") no-repeat center width: 100% height: auto;
+    height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
